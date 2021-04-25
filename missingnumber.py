@@ -27,12 +27,12 @@ while(True):
 
 #get list of numbers to search in and make list
 entry = input().split(' ')
-#covert to int with comprehesion
+#covert to int with comprehesion - Alternate way
 #list_num = [int(x) for x in list(entry)]
 #convert to int with map
 list_num = list(map(int, entry))
 #list_num.sort()
-#get missing number wuth method 1 - linear operation
+#get missing number wuth method 1 - linear operation - alternate way
 #print(missing_number_1(size_num, list_num))
 #get missing number with method 2 sets
 print(missing_number_2(size_num, list_num))
